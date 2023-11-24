@@ -1,0 +1,67 @@
+
+Parte 1. Desarollo téorico. 12 pts
+
+Lista de Preguntas Seleccione 4 de ellas unicamente.
+
+1. [3 pts] ¿Qué es la herencia en Java y cómo se implementa? 
+Proporcione un ejemplo práctico de una clase que hereda de otra, 
+y explica la relación entre la clase padre e hija.
+
+R/ La clase herencia es una clase que tiene que agarrar variables o procesos de la clases padre, 
+se implemanta de unna forma donde digamos clase "persona" le hereda a digamos "comprador" y "vendedor" para ahorrar memoria  
+y estos heredan variables para completar su proceso ya que las dos son personas, pero con cambios minimos asi se ahorra unos bytes 
+
+
+
+
+2.[3 pts] Explique el concepto de polimorfismo en Java. 
+Proporcione un ejemplo concreto utilizando métodos y explique cómo 
+el polimorfismo facilita el diseño de programas flexibles y extensibles.
+
+R/es la capacidad de un objeto de tomar muchas formas, ahorrando memoria y reutilizodo el codigo. 
+ejemplo, la clase "Animal" tiene un método "makeSound", y las clases "Dog" y "Cat" 
+lo sobrescriben con implementaciones específicas. Esto permite tratar a los objetos de tipo "Dog" y "Cat" de manera polimórfica como objetos de tipo "Animal".
+
+
+
+
+
+3.[3 pts] ¿Cuál es el propósito de una clase abstracta en Java? 
+Proporciona un ejemplo de una clase abstracta y explica cómo se diferencia
+ de una clase regular.
+
+R/
+
+
+
+
+
+
+4.[3 pts] Describa cómo se pueden leer y escribir datos en archivos en Java. 
+Menciona la importancia de manejar excepciones en este contexto.
+
+
+R/
+
+
+
+5.[3 pts] Explica el concepto de recursividad en Java. 
+Proporciona un ejemplo de una función recursiva y discute cómo funciona,
+ así como las precauciones que deben tomarse al utilizar la recursividad.
+
+
+R/la recursividad puede hacer que el código sea más claro y conciso en algunos casos,
+ especialmente cuando se enfrenta a problemas que se pueden dividir en subproblemas idénticos o similares, se puede llevar a problemas tambien como desbordamientos de pila cuando hay demasiadas llamadas recursivas.
+
+
+
+6.[3 pts] ¿Cómo se gestiona dinámicamente la memoria en Java? 
+Explica cómo Java aborda la liberación de memoria.
+
+
+R/
+la gestión de memoria se realiza de manera automática mediante un proceso llamado (creo) "recolección de basura" 
+ Java utiliza un recolector de basura para identificar y eliminar objetos que ya no son referenciados por el programa, liberando así la memoria que ocupaban.
+
+
+
